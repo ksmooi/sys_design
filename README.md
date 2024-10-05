@@ -34,6 +34,12 @@ The **System Design** document is organized into a hierarchical framework, categ
 ```
 System Design
 │
+├── Software Architecture
+│   ├── Async-Await
+│   ├── Event-Driven
+│   ├── Layered
+│   ├── Client-Server
+│   └── Microservices
 ├── Container
 │   ├── Docker
 │   ├── Docker Compose
@@ -97,7 +103,7 @@ System Design
 │       ├── gRPC
 │       ├── Protobuf with Websocket
 │       └── GraphQL
-├── Messaging & Queues
+├── Messaging Service
 │   ├── Message Brokers
 │   │   ├── RabbitMQ
 │   │   └── Kafka
